@@ -12,6 +12,6 @@ public class TestController {
     @RequestMapping(value = "/docker/{msg}", method = RequestMethod.GET)
     public String docker(@PathVariable("msg") String msg){
         System.out.println(msg);
-        return msg ;
+        return msg;
     }
 }
